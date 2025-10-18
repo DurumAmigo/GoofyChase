@@ -3,11 +3,12 @@
 _Fast paced 1v1 tag game_
 
 ---
-## 🚀 Roadmap
+## 🚀 Goals
 
+### Done
 - [x] Implement basic player movement  
 - [x] Smooth Camera Controller  
-Next  
+### Next  
 - [ ] Add better movement, strafing
 
 ---
