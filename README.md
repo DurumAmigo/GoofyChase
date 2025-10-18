@@ -19,4 +19,3 @@ _Fast paced 1v1 tag game_
 #### Controllable character with basic movement options: moving in the XZ, jumping, and rotating the camera smoothly without weird interactions
 
 ---
-

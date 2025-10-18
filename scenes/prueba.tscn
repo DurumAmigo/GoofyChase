@@ -37,7 +37,6 @@ size = Vector3(4, 4, 4)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r8w3u"]
 albedo_texture = ExtResource("2_j5h0l")
 uv1_triplanar = true
-texture_filter = 2
 
 [sub_resource type="BoxMesh" id="BoxMesh_eygub"]
 material = SubResource("StandardMaterial3D_r8w3u")
@@ -49,7 +48,6 @@ size = Vector3(4, 2, 4)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eygub"]
 albedo_texture = ExtResource("1_aoy30")
 uv1_triplanar = true
-texture_filter = 2
 
 [sub_resource type="BoxMesh" id="BoxMesh_34kj7"]
 material = SubResource("StandardMaterial3D_eygub")
@@ -61,7 +59,6 @@ size = Vector3(4, 1, 4)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_34kj7"]
 albedo_texture = ExtResource("4_r8w3u")
 uv1_triplanar = true
-texture_filter = 2
 
 [sub_resource type="BoxMesh" id="BoxMesh_wawj5"]
 material = SubResource("StandardMaterial3D_34kj7")
@@ -185,12 +182,6 @@ shape = SubResource("BoxShape3D_eygub")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Terrain/Wall4"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.009126663)
 mesh = SubResource("BoxMesh_tfgud")
-
-[node name="ramp" type="StaticBody3D" parent="Terrain"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Terrain/ramp"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Terrain/ramp"]
 
 [node name="Player" parent="." instance=ExtResource("2_aoy30")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 6.323369)

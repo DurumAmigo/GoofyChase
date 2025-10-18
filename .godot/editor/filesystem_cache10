@@ -1,0 +1,16 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1760796656
+icon.svg::CompressedTexture2D::7362151031460806544::1760791202::1760791202::1::::<><><>0<>0<>561ec14aaee4304f76a14f4767bc802c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1760796327::0::1::::<><><>0<>0<><>::
+::res://assets/::1760791202
+::res://assets/textures/::1760791202
+texture_01.png::CompressedTexture2D::3896624244901765141::1760791202::1760791202::1::::<><><>0<>0<>89fafcff34647ec0e0ccdfa2982f1b00<>res://.godot/imported/texture_01.png-7b80fe0b7ffacbf12dacbb0885886f10.s3tc.ctex::
+texture_01r.png::CompressedTexture2D::8016865333230099909::1760791202::1760791202::1::::<><><>0<>0<>eca50674aa332f661b91dcd9c848da86<>res://.godot/imported/texture_01r.png-a7beb8a0f1389681564f07e034d4438f.s3tc.ctex::
+texture_02.png::CompressedTexture2D::2054395679516561403::1760791202::1760791202::1::::<><><>0<>0<>bc1c64237a484e7c5552ccb728d4534f<>res://.godot/imported/texture_02.png-1f32ce6e4e6b8f7d7e54446a493c96a3.s3tc.ctex::
+texture_09.png::CompressedTexture2D::4011653550113915202::1760791202::1760791202::1::::<><><>0<>0<>3b9ed2ad54e0fb16388efc5382637d8f<>res://.godot/imported/texture_09.png-1a3fe8dc9b0e1a5ca0ccdf43dc23e540.s3tc.ctex::
+texture_10.png::CompressedTexture2D::1431260479614767145::1760791202::1760791202::1::::<><><>0<>0<>f3c5e4b10dd41f994d232b5bf9412e88<>res://.godot/imported/texture_10.png-3f2a7e93df015ffcacf6f8d5b4a6e015.s3tc.ctex::
+::res://scenes/::1760791202
+player.tscn::PackedScene::4663097291460616279::1760791202::0::1::::<><><>0<>0<><>::uid://bdah17hc5ohvh::::res://scripts/player.gd
+prueba.tscn::PackedScene::7205916825127088526::1760791202::0::1::::<><><>0<>0<><>::uid://4jfuj1lhyash::::res://assets/textures/texture_02.png<>uid://unkwesqxe1fh::::res://assets/textures/texture_10.png<>uid://b7o3sb7qqlsfn::::res://scenes/player.tscn<>uid://bvrs3j2kngbib::::res://assets/textures/texture_01.png<>uid://dmhouoqix40w4::::res://assets/textures/texture_01r.png
+::res://scripts/::1760791202
+player.gd::GDScript::2597460355890446269::1760791202::0::1::::<>CharacterBody3D<><>0<>0<><>::

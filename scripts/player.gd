@@ -16,7 +16,6 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _unhandled_input(event: InputEvent) -> void:
-	print_debug(event)
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * sensitivity)
 		camera.rotate_x(-event.relative.y * sensitivity)
