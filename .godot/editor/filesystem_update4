@@ -1,3 +1,4 @@
-res://scenes/prueba.tscn
 res://scenes/player.tscn
 res://scripts/player.gd
+res://scenes/prueba.tscn
+res://scripts/speed.gd

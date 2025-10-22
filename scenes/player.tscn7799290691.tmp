@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://b7o3sb7qqlsfn"]
+
+[ext_resource type="Script" uid="uid://bdah17hc5ohvh" path="res://scripts/player.gd" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://14uu6rcbdxt0" path="res://scripts/speed.gd" id="2_g2els"]
+
+[sub_resource type="Curve" id="Curve_g2els"]
+_limits = [0.0, 2.0, 0.0, 180.0]
+_data = [Vector2(70, 1), 0.0, 0.0, 0, 0, Vector2(90, 3), 0.0, 0.0, 0, 0, Vector2(110, 1), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_g2els"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_qhqgy"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_3vyb7")
+curve = SubResource("Curve_g2els")
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Head"]
+current = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_g2els")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_qhqgy")
+
+[node name="Speed" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+script = ExtResource("2_g2els")
